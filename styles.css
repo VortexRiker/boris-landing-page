@@ -142,7 +142,9 @@ p
 }
 .information
 {
+    border: 3px solid red;
     display: flex;
+    justify-content: center;
     flex-flow: row wrap;
     list-style: none;
     margin: 0;
