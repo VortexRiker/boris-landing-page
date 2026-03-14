@@ -31,7 +31,8 @@ p
 
 .header,
 .footer,
-.contact
+.contact,
+.soon
 {
     display: flex;
     align-items: center;
@@ -114,6 +115,11 @@ p
     padding: 10px 40px;
     color: bisque;
     font-weight: 600;
+    text-decoration: none;
+}
+.sign-up:hover
+{
+    background-color: rgb(54, 163, 101);
 }
 .top img
 {
@@ -235,12 +241,13 @@ p
     font-weight: 900;
 }
 
-.reminder button
+.reminder a
 {
     border: 2px solid bisque;
 }
 
-.contact
+.contact,
+.soon
 {
     flex-direction: column;
     justify-content: center;
@@ -253,10 +260,21 @@ p
     border: 4px solid bisque;
     border-radius: 15px;
 }
-.contact p
+.contact,.soon p
 {
     font-size: 36px;
     font-weight: 900;
+}
+
+.soon
+{
+    flex: 1;
+    background-color: rgb(78, 26, 2);
+}
+.soon img
+{
+    border: none;
+    border-radius: 15px;
 }
 
 
